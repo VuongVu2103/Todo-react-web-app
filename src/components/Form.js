@@ -1,8 +1,15 @@
 import React from "react";
 
 function Form({ txtInput, setTxtInput, todos, setTodos, setStatus }) {
+  /*
+  * Get value from input tag and if something change on input 
+  * it will add new value into set state function setTxtInput back to App.js
+  * when submit function add new value into todo state setTodos back to App.js
+  * and clear the value of input field,
+  * the same with status 
+  * */ 
+ 
   const textInputHandle = (e) => {
-    console.log(e.target.value);
     setTxtInput(e.target.value);
   };
   const submitTodoHandle = (e) => {
