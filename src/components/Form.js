@@ -1,6 +1,6 @@
 import React from "react";
 
-function Form({ txtInput, setTxtInput, todos, setTodos }) {
+function Form({ txtInput, setTxtInput, todos, setTodos, setStatus }) {
   const textInputHandle = (e) => {
     console.log(e.target.value);
     setTxtInput(e.target.value);
@@ -14,7 +14,7 @@ function Form({ txtInput, setTxtInput, todos, setTodos }) {
     setTxtInput("");
   };
   const statusHandler = (e)=>{
-        console.log(e.target.value);
+        setStatus(e.target.value);
   }
   return (
     <form>
