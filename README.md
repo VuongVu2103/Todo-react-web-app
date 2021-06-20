@@ -1,6 +1,5 @@
 ## Simple React ToDo List Application
-This is an implementation of Todo built using
-. [React & React Hooks](https://reactjs.org/docs/hooks-intro.html)
+This is an implementation of Todo built using [React & React Hooks](https://reactjs.org/docs/hooks-intro.html)
 
 ## Setup
 . First, clone this project:
